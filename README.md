@@ -6,4 +6,4 @@ This repository is a space for organizing Java study materials
 The study materials will be explained in Korean
 ###### 정리 자료 설명은 한국어로 작성할 것 입니다.
 
-[Day-1]("/info/2023-12-02-Day-01.md")
+[Day-1]("info/2023-12-02-Day-01.md")
