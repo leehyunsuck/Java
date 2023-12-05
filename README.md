@@ -36,6 +36,11 @@ The study materials will be explained in Korean
 
 - [입출력 (Input Output)](https://github.com/leehyunsuck/Java/blob/main/info/2023-12-04-Day-02.md#input-output)
 
-- [배열 (Array)]()
+- [배열 (Array)](https://github.com/leehyunsuck/Java/blob/main/info/2023-12-04-Day-02.md#array)
 
-- [열거형 (Enumeration)]()
+- [열거형 (Enumeration)](https://github.com/leehyunsuck/Java/blob/main/info/2023-12-04-Day-02.md#enumeration)
+
+- [Get Set 메소드 (GetSetMethod)](https://github.com/leehyunsuck/Java/blob/main/info/2023-12-04-Day-02.md#get-set-method)
+
+- [상속 (Inheritance)](https://github.com/leehyunsuck/Java/blob/main/info/2023-12-04-Day-02.md#inheritance)
+
