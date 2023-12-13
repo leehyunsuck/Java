@@ -63,22 +63,29 @@ class Solution {
 
             //Switch Expression으로 반환받은 값을 StringBuilder 객체에 추가
             answer.append(switch(checkNum) {
+                //1, 4, 7은 왼쪽 손가락으로 클릭
                 case 1, 4, 7 -> { 
                     leftFinger = location[checkNum];
                     yield "L";
                 }
+                //3, 6, 9는 오른쪽 손가락으로 클릭
                 case 3, 6, 9 -> {
                     rightFinger = location[checkNum];
                     yield "R";
                 }
+                //2, 5, 8, 0은 더 가까운 손가락으로 클릭
                 default -> {
+                    //현재 숫자위치 저장
                     int[] temp = location[checkNum];
+                    //왼쪽, 오른쪽에서 얼마나 움직여야 하는지 확인
                     int leftCount = Math.abs(temp[0] - leftFinger[0]) + Math.abs(temp[1] - leftFinger[1]);
                     int rightCount = Math.abs(temp[0] - rightFinger[0]) + Math.abs(temp[1] - rightFinger[1]);
 
+                    //왼쪽이 더 가깝거나, 둘 다 거리가 동일한데 왼손잡이면 왼쪽손가락 사용
                     if (leftCount < rightCount || (leftCount == rightCount && hand.equals("left"))) {
                         leftFinger = location[checkNum];
                         yield "L";
+                    //아니면 오른쪽 손가락 사용
                     } else {
                         rightFinger = location[checkNum];
                         yield "R";
