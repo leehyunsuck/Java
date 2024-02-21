@@ -62,3 +62,7 @@ The study materials will be explained in Korean
 - [스위치 비낙하 (Switch Expression)](https://github.com/leehyunsuck/Java/blob/main/info/2023-12-05-Day-03.md#switch-expression)
 
 - [컬렉션 (Collection Framework)]()
+
+- [람다 (Lambda)]()
+
+- [메소드 레퍼런스 (Method Reference)]()
